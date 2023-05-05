@@ -1,0 +1,67 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  flex: auto;
+
+}
+
+.nav, .footer {
+    background-color: #1F2937;
+    color:white ;
+}
+
+.nav {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+}
+
+img {
+    height: 300px;
+    width: 500px;
+    align-self: center;
+    display: flex;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.awesome {
+    font-size: 38px;
+    font-weight: 950;
+}
+
+.text {
+   font-size: 17px;
+   color: #e5e7eb;
+}
+
+button {
+    background-color: #3883f6;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.atb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    padding: 0;
+    gap: 25px;
+}
