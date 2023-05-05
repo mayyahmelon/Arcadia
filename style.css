@@ -15,8 +15,7 @@ body {
 
 .nav {
     display: flex;
-    flex: auto;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 img {
